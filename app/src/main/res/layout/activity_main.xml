@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background"
+    tools:context="hanjo.hanjorun.MainActivity">
+
+    <LinearLayout
+        android:gravity="top"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+
+            <ImageButton
+                android:id="@+id/startBtn"
+                android:background="#00ff0000"
+                android:src="@drawable/gamestart"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center|top"
+                android:layout_margin="20dp"
+              />
+
+            <ImageButton
+                android:id="@+id/exitBtn"
+                android:background="#00ff0000"
+                android:src="@drawable/gameend"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center|bottom"
+                android:layout_margin="20dp"
+               />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
